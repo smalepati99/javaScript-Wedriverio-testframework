@@ -1,0 +1,48 @@
+{
+  "uid" : "43ca93218cbbda0d",
+  "name" : "should display products as one (1) column of six (6) in mobile size",
+  "fullName" : "E2E Tests - Inventory Page - Design.should display products as one (1) column of six (6) in mobile size",
+  "historyId" : "523bfd6be3463580f522cab37ea27e56",
+  "time" : {
+    "start" : 1597039883598,
+    "stop" : 1597039883598,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "E2E Tests - Inventory Page - Design"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E Tests - Inventory Page - Design"
+  }, {
+    "name" : "testMethod",
+    "value" : "should display products as one (1) column of six (6) in mobile size"
+  }, {
+    "name" : "package",
+    "value" : "E2E Tests - Inventory Page - Design"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "43ca93218cbbda0d.json",
+  "parameterValues" : [ ]
+}

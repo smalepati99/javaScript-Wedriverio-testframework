@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="E2E_Tests_Checkout_Step_Two_Functionality" timestamp="2020-08-10T07:11:09" time="6.719" tests="7" failures="0" errors="0" skipped="1">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="E2E Tests - Checkout Step Two - Functionality"/>
+      <property name="capabilities" value="chrome.84_0_4147_105.macosx"/>
+      <property name="file" value="./test/specs/pages/checkoutStepTwo.js"/>
+    </properties>
+    <testcase classname="chrome.84_0_4147_105.macosx.E2E_Tests_Checkout_Step_Two_Functionality" name="should_load_the_checkout_step_two_page" time="0.218">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/url - {"url":"https://www.saucedemo.com/checkout-step-two.html"}
+RESULT: {"url":"https://www.saucedemo.com/checkout-step-two.html"}
+COMMAND: GET /session/da628abbe3ce48e6e718273da62405d9/url - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.84_0_4147_105.macosx.E2E_Tests_Checkout_Step_Two_Functionality" name="should_have_one_1_item_after_adding_it_from_Inventory_page" time="1.409">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/url - {"url":"https://www.saucedemo.com/inventory.html"}
+RESULT: {"url":"https://www.saucedemo.com/inventory.html"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".inventory_list"}
+RESULT: {"using":"css selector","value":".inventory_list"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/elements - {"using":"css selector","value":".inventory_list"}
+RESULT: {"using":"css selector","value":".inventory_list"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".inventory_list"}
+RESULT: {"using":"css selector","value":".inventory_list"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/ee06257c-0090-4812-8e32-2b4ee561a98e/elements - {"using":"css selector","value":".inventory_item"}
+RESULT: {"using":"css selector","value":".inventory_item"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/9f0bbea8-3496-4ff3-b8fb-8b6e45847fc4/element - {"using":"css selector","value":".inventory_item_name"}
+RESULT: {"using":"css selector","value":".inventory_item_name"}
+COMMAND: GET /session/da628abbe3ce48e6e718273da62405d9/element/d6e5c801-ab10-4a25-a894-c3133a383ee3/text - {}
+RESULT: {}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".inventory_list"}
+RESULT: {"using":"css selector","value":".inventory_list"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/ee06257c-0090-4812-8e32-2b4ee561a98e/elements - {"using":"css selector","value":".inventory_item"}
+RESULT: {"using":"css selector","value":".inventory_item"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/9f0bbea8-3496-4ff3-b8fb-8b6e45847fc4/element - {"using":"css selector","value":".btn_inventory"}
+RESULT: {"using":"css selector","value":".btn_inventory"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/f7061f4d-38ed-47c1-9448-b16905fce0b0/click - {}
+RESULT: {}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".shopping_cart_link"}
+RESULT: {"using":"css selector","value":".shopping_cart_link"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/962c25b5-1a0d-4366-8893-9448fb4cbf9e/click - {}
+RESULT: {}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".cart_list"}
+RESULT: {"using":"css selector","value":".cart_list"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/elements - {"using":"css selector","value":".cart_list"}
+RESULT: {"using":"css selector","value":".cart_list"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".checkout_button"}
+RESULT: {"using":"css selector","value":".checkout_button"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/59da4ddb-61ff-4f9d-a61a-a90b611e11c9/click - {}
+RESULT: {}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".checkout_info_wrapper form"}
+RESULT: {"using":"css selector","value":".checkout_info_wrapper form"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/elements - {"using":"css selector","value":".checkout_info_wrapper form"}
+RESULT: {"using":"css selector","value":".checkout_info_wrapper form"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":"#first-name"}
+RESULT: {"using":"css selector","value":"#first-name"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/02be687e-f0d6-46bf-b50d-4011bc105fcb/clear - {}
+RESULT: {}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/02be687e-f0d6-46bf-b50d-4011bc105fcb/value - {"text":"test"}
+RESULT: {"text":"test"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":"#last-name"}
+RESULT: {"using":"css selector","value":"#last-name"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/aba1ef7b-d9be-4ed1-80f0-7986ab0e241d/clear - {}
+RESULT: {}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/aba1ef7b-d9be-4ed1-80f0-7986ab0e241d/value - {"text":"test"}
+RESULT: {"text":"test"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":"#postal-code"}
+RESULT: {"using":"css selector","value":"#postal-code"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/631b5770-a6fc-4014-ae3e-ca81ba0c1100/clear - {}
+RESULT: {}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/631b5770-a6fc-4014-ae3e-ca81ba0c1100/value - {"text":"test"}
+RESULT: {"text":"test"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".cart_button"}
+RESULT: {"using":"css selector","value":".cart_button"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/5e029095-0adf-49f7-bf35-27db315bbf97/click - {}
+RESULT: {}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".summary_info"}
+RESULT: {"using":"css selector","value":".summary_info"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/elements - {"using":"css selector","value":".summary_info"}
+RESULT: {"using":"css selector","value":".summary_info"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".cart_list"}
+RESULT: {"using":"css selector","value":".cart_list"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/a9140097-7dc1-410c-8e8c-93332a9bd8f0/elements - {"using":"css selector","value":".cart_item"}
+RESULT: {"using":"css selector","value":".cart_item"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/c9f004fb-2caf-4898-81e0-543f3b8de459/element - {"using":"css selector","value":".cart_item_label a div"}
+RESULT: {"using":"css selector","value":".cart_item_label a div"}
+COMMAND: GET /session/da628abbe3ce48e6e718273da62405d9/element/e024b0bb-bcf1-4b8c-84e1-193d3f28cd0d/text - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.84_0_4147_105.macosx.E2E_Tests_Checkout_Step_Two_Functionality" name="should_match_subtotal_price_to_Cart_item_price" time="3.657">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".shopping_cart_link"}
+RESULT: {"using":"css selector","value":".shopping_cart_link"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/186e9153-2425-4fb7-93bb-46cdc239817e/click - {}
+RESULT: {}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".cart_list"}
+RESULT: {"using":"css selector","value":".cart_list"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/elements - {"using":"css selector","value":".cart_list"}
+RESULT: {"using":"css selector","value":".cart_list"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".cart_list"}
+RESULT: {"using":"css selector","value":".cart_list"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/105ecd99-7562-476e-9ff3-30343d1baabd/elements - {"using":"css selector","value":".cart_item"}
+RESULT: {"using":"css selector","value":".cart_item"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/d1ea4e68-8ff9-4b47-b45b-b62888f0da0d/element - {"using":"css selector","value":".inventory_item_price"}
+RESULT: {"using":"css selector","value":".inventory_item_price"}
+COMMAND: GET /session/da628abbe3ce48e6e718273da62405d9/element/75215084-2a14-4a01-80ab-e8700ce8b1b7/text - {}
+RESULT: {}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".checkout_button"}
+RESULT: {"using":"css selector","value":".checkout_button"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/c293519c-2c0f-4e55-a43a-93ef737da52f/click - {}
+RESULT: {}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".checkout_info_wrapper form"}
+RESULT: {"using":"css selector","value":".checkout_info_wrapper form"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/elements - {"using":"css selector","value":".checkout_info_wrapper form"}
+RESULT: {"using":"css selector","value":".checkout_info_wrapper form"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":"#first-name"}
+RESULT: {"using":"css selector","value":"#first-name"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/7636c008-fc90-419b-9458-fe53466796c1/clear - {}
+RESULT: {}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/7636c008-fc90-419b-9458-fe53466796c1/value - {"text":"test"}
+RESULT: {"text":"test"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":"#last-name"}
+RESULT: {"using":"css selector","value":"#last-name"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/ecb0de57-485e-46b3-82e6-c7de758c0e2b/clear - {}
+RESULT: {}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/ecb0de57-485e-46b3-82e6-c7de758c0e2b/value - {"text":"test"}
+RESULT: {"text":"test"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":"#postal-code"}
+RESULT: {"using":"css selector","value":"#postal-code"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/683db5bb-4f50-4183-a143-87d1ecd433e5/clear - {}
+RESULT: {}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/683db5bb-4f50-4183-a143-87d1ecd433e5/value - {"text":"test"}
+RESULT: {"text":"test"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".cart_button"}
+RESULT: {"using":"css selector","value":".cart_button"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/114151b5-e31d-4e64-9c9c-3adc53131392/click - {}
+RESULT: {}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".summary_info"}
+RESULT: {"using":"css selector","value":".summary_info"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/elements - {"using":"css selector","value":".summary_info"}
+RESULT: {"using":"css selector","value":".summary_info"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".summary_subtotal_label"}
+RESULT: {"using":"css selector","value":".summary_subtotal_label"}
+COMMAND: GET /session/da628abbe3ce48e6e718273da62405d9/element/444123f9-2634-426d-821d-90a06e0f1e59/text - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.84_0_4147_105.macosx.E2E_Tests_Checkout_Step_Two_Functionality" name="should_navigate_to_Item_Detail_page_after_clicking_item_name" time="0.291">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".cart_list"}
+RESULT: {"using":"css selector","value":".cart_list"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/32574646-4af3-4d88-91b3-bb45368761a7/elements - {"using":"css selector","value":".cart_item"}
+RESULT: {"using":"css selector","value":".cart_item"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/79c9adf7-d92d-4d04-89e8-e4df428d101d/element - {"using":"css selector","value":".cart_item_label a div"}
+RESULT: {"using":"css selector","value":".cart_item_label a div"}
+COMMAND: GET /session/da628abbe3ce48e6e718273da62405d9/element/3cccdc0a-9af6-43c9-bcac-07dc31f38fbf/text - {}
+RESULT: {}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".cart_list"}
+RESULT: {"using":"css selector","value":".cart_list"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/32574646-4af3-4d88-91b3-bb45368761a7/elements - {"using":"css selector","value":".cart_item"}
+RESULT: {"using":"css selector","value":".cart_item"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/79c9adf7-d92d-4d04-89e8-e4df428d101d/element - {"using":"css selector","value":".cart_item_label a"}
+RESULT: {"using":"css selector","value":".cart_item_label a"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/09282105-6337-4779-bb12-634d8d950eba/click - {}
+RESULT: {}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".inventory_details_container"}
+RESULT: {"using":"css selector","value":".inventory_details_container"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/elements - {"using":"css selector","value":".inventory_details_container"}
+RESULT: {"using":"css selector","value":".inventory_details_container"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".inventory_details_name"}
+RESULT: {"using":"css selector","value":".inventory_details_name"}
+COMMAND: GET /session/da628abbe3ce48e6e718273da62405d9/element/f37d4d99-958e-40b7-854b-b3d8773c9d6f/text - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.84_0_4147_105.macosx.E2E_Tests_Checkout_Step_Two_Functionality" name="should_navigate_to_Inventory_page_after_clicking_Cancel_button" time="0.205">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".inventory_details_back_button"}
+RESULT: {"using":"css selector","value":".inventory_details_back_button"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/827bbc89-f731-4ac4-b93b-c53969fd2d7b/click - {}
+RESULT: {}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".summary_info"}
+RESULT: {"using":"css selector","value":".summary_info"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/elements - {"using":"css selector","value":".summary_info"}
+RESULT: {"using":"css selector","value":".summary_info"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".cart_cancel_link"}
+RESULT: {"using":"css selector","value":".cart_cancel_link"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/333d0d48-c704-4c78-856d-c25fc9f9abc5/click - {}
+RESULT: {}
+COMMAND: GET /session/da628abbe3ce48e6e718273da62405d9/url - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.84_0_4147_105.macosx.E2E_Tests_Checkout_Step_Two_Functionality" name="should_navigate_to_Checkout_Complete_page_after_clicking_Finish_button" time="0.936">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".shopping_cart_link"}
+RESULT: {"using":"css selector","value":".shopping_cart_link"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/37211bb0-88e0-4b75-b715-c988bf2fcbd9/click - {}
+RESULT: {}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".cart_list"}
+RESULT: {"using":"css selector","value":".cart_list"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/elements - {"using":"css selector","value":".cart_list"}
+RESULT: {"using":"css selector","value":".cart_list"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".cart_list"}
+RESULT: {"using":"css selector","value":".cart_list"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/160b1968-e9f2-4b1b-9a4b-bf7b80078ab5/elements - {"using":"css selector","value":".cart_item"}
+RESULT: {"using":"css selector","value":".cart_item"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/1aec4f4d-8dcf-402f-9077-03fde6bd92b6/element - {"using":"css selector","value":".inventory_item_price"}
+RESULT: {"using":"css selector","value":".inventory_item_price"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".checkout_button"}
+RESULT: {"using":"css selector","value":".checkout_button"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/aa6f6153-870f-4582-bf5f-5f5b3680bd5a/click - {}
+RESULT: {}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".checkout_info_wrapper form"}
+RESULT: {"using":"css selector","value":".checkout_info_wrapper form"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/elements - {"using":"css selector","value":".checkout_info_wrapper form"}
+RESULT: {"using":"css selector","value":".checkout_info_wrapper form"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":"#first-name"}
+RESULT: {"using":"css selector","value":"#first-name"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/defc809c-baaf-4222-822e-87cc7d0668da/clear - {}
+RESULT: {}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/defc809c-baaf-4222-822e-87cc7d0668da/value - {"text":"test"}
+RESULT: {"text":"test"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":"#last-name"}
+RESULT: {"using":"css selector","value":"#last-name"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/73026f10-3ab5-475b-af5a-3852160f508f/clear - {}
+RESULT: {}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/73026f10-3ab5-475b-af5a-3852160f508f/value - {"text":"test"}
+RESULT: {"text":"test"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":"#postal-code"}
+RESULT: {"using":"css selector","value":"#postal-code"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/f1f35da6-8e38-4ad6-b1ec-904d3ca37604/clear - {}
+RESULT: {}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/f1f35da6-8e38-4ad6-b1ec-904d3ca37604/value - {"text":"test"}
+RESULT: {"text":"test"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".cart_button"}
+RESULT: {"using":"css selector","value":".cart_button"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/3cdd0cf7-01ab-41c8-9be0-0716b9c425cf/click - {}
+RESULT: {}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".summary_info"}
+RESULT: {"using":"css selector","value":".summary_info"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/elements - {"using":"css selector","value":".summary_info"}
+RESULT: {"using":"css selector","value":".summary_info"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element - {"using":"css selector","value":".cart_button"}
+RESULT: {"using":"css selector","value":".cart_button"}
+COMMAND: POST /session/da628abbe3ce48e6e718273da62405d9/element/802307f0-3f4e-4252-83cf-ad6c6674d2d2/click - {}
+RESULT: {}
+COMMAND: GET /session/da628abbe3ce48e6e718273da62405d9/url - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.84_0_4147_105.macosx.E2E_Tests_Checkout_Step_Two_Functionality" name="should_not_be_able_to_check_out_with_an_empty_Cart" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="E2E_Tests_Checkout_Step_Two_Design" timestamp="2020-08-10T07:11:16" time="0.01" tests="1" failures="0" errors="0" skipped="1">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="E2E Tests - Checkout Step Two - Design"/>
+      <property name="capabilities" value="chrome.84_0_4147_105.macosx"/>
+      <property name="file" value="./test/specs/pages/checkoutStepTwo.js"/>
+    </properties>
+    <testcase classname="chrome.84_0_4147_105.macosx.E2E_Tests_Checkout_Step_Two_Design" name="" time="0">
+      <skipped/>
+      <system-out>
+        <![CDATA[
+COMMAND: DELETE /session/da628abbe3ce48e6e718273da62405d9 - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

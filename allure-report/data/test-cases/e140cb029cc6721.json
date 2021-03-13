@@ -1,0 +1,176 @@
+{
+  "uid" : "e140cb029cc6721",
+  "name" : "should have a login form",
+  "fullName" : "E2E Tests - Login Page - Functionality.should have a login form",
+  "historyId" : "f1502115af096f54b8640dcf8db37b3e",
+  "time" : {
+    "start" : 1597039904670,
+    "stop" : 1597039904736,
+    "duration" : 66
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1597039904672,
+        "stop" : 1597039904685,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cd9ff39a00f49f24",
+        "name" : "Request",
+        "source" : "cd9ff39a00f49f24.json",
+        "type" : "application/json",
+        "size" : 48
+      }, {
+        "uid" : "1ca867da0db50107",
+        "name" : "Response",
+        "source" : "1ca867da0db50107.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1597039904690,
+        "stop" : 1597039904705,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "67346ec7c79c1c59",
+        "name" : "Request",
+        "source" : "67346ec7c79c1c59.json",
+        "type" : "application/json",
+        "size" : 48
+      }, {
+        "uid" : "6e8d7d61ace9945a",
+        "name" : "Response",
+        "source" : "6e8d7d61ace9945a.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1597039904708,
+        "stop" : 1597039904717,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5ca865b05b09c086",
+        "name" : "Request",
+        "source" : "5ca865b05b09c086.json",
+        "type" : "application/json",
+        "size" : 48
+      }, {
+        "uid" : "4f85c57e6855b336",
+        "name" : "Response",
+        "source" : "4f85c57e6855b336.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1597039904720,
+        "stop" : 1597039904733,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "56c85ceaf7008bc7",
+        "name" : "Request",
+        "source" : "56c85ceaf7008bc7.json",
+        "type" : "application/json",
+        "size" : 5306
+      }, {
+        "uid" : "780bf3486dac498c",
+        "name" : "Response",
+        "source" : "780bf3486dac498c.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "E2E Tests - Login Page - Functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E Tests - Login Page - Functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have a login form"
+  }, {
+    "name" : "package",
+    "value" : "E2E Tests - Login Page - Functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e140cb029cc6721.json",
+  "parameterValues" : [ "chrome" ]
+}

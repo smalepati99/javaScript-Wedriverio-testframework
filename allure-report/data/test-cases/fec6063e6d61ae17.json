@@ -1,0 +1,110 @@
+{
+  "uid" : "fec6063e6d61ae17",
+  "name" : "should load the checkout step two page",
+  "fullName" : "E2E Tests - Checkout Step Two - Functionality.should load the checkout step two page",
+  "historyId" : "4905511bf83d74c67ff3ae31dab6811c",
+  "time" : {
+    "start" : 1597039869342,
+    "stop" : 1597039869560,
+    "duration" : 218
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1597039869347,
+        "stop" : 1597039869547,
+        "duration" : 200
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ddee679466d3960",
+        "name" : "Request",
+        "source" : "ddee679466d3960.json",
+        "type" : "application/json",
+        "size" : 63
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1597039869549,
+        "stop" : 1597039869555,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e174cf52556775f",
+        "name" : "Response",
+        "source" : "e174cf52556775f.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "E2E Tests - Checkout Step Two - Functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E Tests - Checkout Step Two - Functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "should load the checkout step two page"
+  }, {
+    "name" : "package",
+    "value" : "E2E Tests - Checkout Step Two - Functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fec6063e6d61ae17.json",
+  "parameterValues" : [ "chrome" ]
+}

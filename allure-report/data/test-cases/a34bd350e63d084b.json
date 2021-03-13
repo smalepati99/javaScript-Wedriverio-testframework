@@ -1,0 +1,48 @@
+{
+  "uid" : "a34bd350e63d084b",
+  "name" : "should validate last name string",
+  "fullName" : "E2E Tests - Checkout Step One - Functionality.should validate last name string",
+  "historyId" : "9974a3024c64398e1d0298eba79bae36",
+  "time" : {
+    "start" : 1597039848771,
+    "stop" : 1597039848771,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "E2E Tests - Checkout Step One - Functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E Tests - Checkout Step One - Functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "should validate last name string"
+  }, {
+    "name" : "package",
+    "value" : "E2E Tests - Checkout Step One - Functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a34bd350e63d084b.json",
+  "parameterValues" : [ ]
+}

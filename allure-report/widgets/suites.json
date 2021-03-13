@@ -1,0 +1,114 @@
+{
+  "total" : 11,
+  "items" : [ {
+    "uid" : "8e3ef784853766ea15fd9c7f7204341b",
+    "name" : "E2E Tests - Inventory Page - Functionality",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 18,
+      "unknown" : 0,
+      "total" : 18
+    }
+  }, {
+    "uid" : "278aabefef4dc089c7de36799cfdc025",
+    "name" : "E2E Tests - Login Page - Functionality",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 12
+    }
+  }, {
+    "uid" : "3394c625166dd7cd36e31a78b1c8009b",
+    "name" : "E2E Tests - Checkout Step One - Functionality",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 4,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 14
+    }
+  }, {
+    "uid" : "6bc0c088fd460ee29514d1db590018b8",
+    "name" : "E2E Tests - Cart Page - Functionality",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "7f6dc0195690a1d2b089caf90cc64171",
+    "name" : "E2E Tests - Checkout Step Two - Functionality",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "2db5d6373dbe030282d0a6558cb5fd5d",
+    "name" : "E2E Tests - Item Detail Page - Functionality",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "ceedc3c48fe6f2159c603a6bbb9197ca",
+    "name" : "E2E Tests - Login Page - Design",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 5,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "720255bd57b2e1ffc95f65750fc9b301",
+    "name" : "E2E Tests - Inventory Page - Design",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 3,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "280567272b4da2668e0c6d66e5910b34",
+    "name" : "E2E Tests - Cart Page - Design",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "dfcffa00453d13a94ca21327771f6157",
+    "name" : "E2E Tests - Checkout Step One - Design",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

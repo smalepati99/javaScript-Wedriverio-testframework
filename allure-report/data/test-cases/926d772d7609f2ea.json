@@ -1,0 +1,48 @@
+{
+  "uid" : "926d772d7609f2ea",
+  "name" : "should have the login form above the bot image in mobile view",
+  "fullName" : "E2E Tests - Login Page - Design.should have the login form above the bot image in mobile view",
+  "historyId" : "72a8f91d8071f1d421c01b24fd854428",
+  "time" : {
+    "start" : 1597039907652,
+    "stop" : 1597039907652,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "E2E Tests - Login Page - Design"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E Tests - Login Page - Design"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have the login form above the bot image in mobile view"
+  }, {
+    "name" : "package",
+    "value" : "E2E Tests - Login Page - Design"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "926d772d7609f2ea.json",
+  "parameterValues" : [ ]
+}

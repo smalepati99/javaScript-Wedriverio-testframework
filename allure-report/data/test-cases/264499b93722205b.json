@@ -1,0 +1,48 @@
+{
+  "uid" : "264499b93722205b",
+  "name" : "should not be able to check out with an empty Cart",
+  "fullName" : "E2E Tests - Checkout Step Two - Functionality.should not be able to check out with an empty Cart",
+  "historyId" : "b8dac0f725f71e8c9afa523ab07d975d",
+  "time" : {
+    "start" : 1597039876060,
+    "stop" : 1597039876060,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "E2E Tests - Checkout Step Two - Functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E Tests - Checkout Step Two - Functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not be able to check out with an empty Cart"
+  }, {
+    "name" : "package",
+    "value" : "E2E Tests - Checkout Step Two - Functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "264499b93722205b.json",
+  "parameterValues" : [ ]
+}

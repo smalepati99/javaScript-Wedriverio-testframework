@@ -1,0 +1,48 @@
+{
+  "uid" : "1a0b1c6f2450935",
+  "name" : "",
+  "fullName" : "E2E Tests - Checkout Step One - Design.",
+  "historyId" : "83ce543d03537af44d3cd3e78caf7478",
+  "time" : {
+    "start" : 1597039866625,
+    "stop" : 1597039866625,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "E2E Tests - Checkout Step One - Design"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E Tests - Checkout Step One - Design"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "E2E Tests - Checkout Step One - Design"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a0b1c6f2450935.json",
+  "parameterValues" : [ ]
+}

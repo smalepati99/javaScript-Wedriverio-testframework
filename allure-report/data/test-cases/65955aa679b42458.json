@@ -1,0 +1,48 @@
+{
+  "uid" : "65955aa679b42458",
+  "name" : "should not allow navigation before logging in",
+  "fullName" : "E2E Tests - Login Page - Functionality.should not allow navigation before logging in",
+  "historyId" : "2b851cfc811f986a4cb94d0a5e82cfcb",
+  "time" : {
+    "start" : 1597039906844,
+    "stop" : 1597039906844,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "E2E Tests - Login Page - Functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E Tests - Login Page - Functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not allow navigation before logging in"
+  }, {
+    "name" : "package",
+    "value" : "E2E Tests - Login Page - Functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "65955aa679b42458.json",
+  "parameterValues" : [ ]
+}

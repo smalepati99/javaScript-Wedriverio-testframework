@@ -1,0 +1,48 @@
+{
+  "uid" : "3ad93e29f3efaeb1",
+  "name" : "should display products as two (2) columns of three (3) in desktop size",
+  "fullName" : "E2E Tests - Inventory Page - Design.should display products as two (2) columns of three (3) in desktop size",
+  "historyId" : "61f0f5795f07e43adcfc37b11046a500",
+  "time" : {
+    "start" : 1597039883598,
+    "stop" : 1597039883598,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "E2E Tests - Inventory Page - Design"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E Tests - Inventory Page - Design"
+  }, {
+    "name" : "testMethod",
+    "value" : "should display products as two (2) columns of three (3) in desktop size"
+  }, {
+    "name" : "package",
+    "value" : "E2E Tests - Inventory Page - Design"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3ad93e29f3efaeb1.json",
+  "parameterValues" : [ ]
+}

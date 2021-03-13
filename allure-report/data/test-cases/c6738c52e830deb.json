@@ -1,0 +1,137 @@
+{
+  "uid" : "c6738c52e830deb",
+  "name" : "should remove the error after refreshing",
+  "fullName" : "E2E Tests - Login Page - Functionality.should remove the error after refreshing",
+  "historyId" : "466f7449633aad080f0957f86221a267",
+  "time" : {
+    "start" : 1597039905088,
+    "stop" : 1597039905166,
+    "duration" : 78
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/refresh",
+      "time" : {
+        "start" : 1597039905089,
+        "stop" : 1597039905142,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1597039905142,
+        "stop" : 1597039905151,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b4d0e0fffb106591",
+        "name" : "Request",
+        "source" : "b4d0e0fffb106591.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "f2dc30c4d2b9b6b",
+        "name" : "Response",
+        "source" : "f2dc30c4d2b9b6b.json",
+        "type" : "application/json",
+        "size" : 1857
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1597039905154,
+        "stop" : 1597039905163,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e4d327cd747660a0",
+        "name" : "Request",
+        "source" : "e4d327cd747660a0.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "76e635c0ae09de0e",
+        "name" : "Response",
+        "source" : "76e635c0ae09de0e.json",
+        "type" : "application/json",
+        "size" : 1857
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "E2E Tests - Login Page - Functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E Tests - Login Page - Functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "should remove the error after refreshing"
+  }, {
+    "name" : "package",
+    "value" : "E2E Tests - Login Page - Functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c6738c52e830deb.json",
+  "parameterValues" : [ "chrome" ]
+}

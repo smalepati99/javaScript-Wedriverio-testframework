@@ -1,0 +1,48 @@
+{
+  "uid" : "7d11544a9f16f724",
+  "name" : "should list one (1) password",
+  "fullName" : "E2E Tests - Login Page - Design.should list one (1) password",
+  "historyId" : "95bad29822d9d6c5992931271d5aa957",
+  "time" : {
+    "start" : 1597039907652,
+    "stop" : 1597039907652,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "E2E Tests - Login Page - Design"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E Tests - Login Page - Design"
+  }, {
+    "name" : "testMethod",
+    "value" : "should list one (1) password"
+  }, {
+    "name" : "package",
+    "value" : "E2E Tests - Login Page - Design"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7d11544a9f16f724.json",
+  "parameterValues" : [ ]
+}

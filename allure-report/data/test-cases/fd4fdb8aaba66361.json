@@ -1,0 +1,176 @@
+{
+  "uid" : "fd4fdb8aaba66361",
+  "name" : "should have six (6) items",
+  "fullName" : "E2E Tests - Inventory Page - Functionality.should have six (6) items",
+  "historyId" : "869efd7502fdae23fe5f22585ffeca9a",
+  "time" : {
+    "start" : 1597039878850,
+    "stop" : 1597039878913,
+    "duration" : 63
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1597039878851,
+        "stop" : 1597039878865,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c19145883c66c83f",
+        "name" : "Request",
+        "source" : "c19145883c66c83f.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "4a9c2b014ce46d00",
+        "name" : "Response",
+        "source" : "4a9c2b014ce46d00.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1597039878871,
+        "stop" : 1597039878883,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c0dfcf8a315bdeaa",
+        "name" : "Request",
+        "source" : "c0dfcf8a315bdeaa.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "a12dc676275d4572",
+        "name" : "Response",
+        "source" : "a12dc676275d4572.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1597039878886,
+        "stop" : 1597039878895,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3612e2c1bf391195",
+        "name" : "Request",
+        "source" : "3612e2c1bf391195.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "e8d61e2077411177",
+        "name" : "Response",
+        "source" : "e8d61e2077411177.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/46ef532c-5d37-4af6-bb44-32d377bf34b2/elements",
+      "time" : {
+        "start" : 1597039878896,
+        "stop" : 1597039878908,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f01949a5f0e15aa4",
+        "name" : "Request",
+        "source" : "f01949a5f0e15aa4.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "401739ae9f1fbfdb",
+        "name" : "Response",
+        "source" : "401739ae9f1fbfdb.json",
+        "type" : "application/json",
+        "size" : 548
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "E2E Tests - Inventory Page - Functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E Tests - Inventory Page - Functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have six (6) items"
+  }, {
+    "name" : "package",
+    "value" : "E2E Tests - Inventory Page - Functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd4fdb8aaba66361.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,10 @@
+{
+    "include": [
+        "wdio.conf.js",
+        "test/**.js",
+        "test/**/**.js",
+        "**/*.json",
+        "node_modules/@wdio/sync",
+        "node_modules/@wdio/mocha-framework"
+    ]
+}

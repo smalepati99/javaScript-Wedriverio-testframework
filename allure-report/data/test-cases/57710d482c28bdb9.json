@@ -1,0 +1,48 @@
+{
+  "uid" : "57710d482c28bdb9",
+  "name" : "should go to empty tab after clicking Back button if coming from new tab",
+  "fullName" : "E2E Tests - Item Detail Page - Functionality.should go to empty tab after clicking Back button if coming from new tab",
+  "historyId" : "1ac17fb82e3be79b39992248f0d16e39",
+  "time" : {
+    "start" : 1597039886555,
+    "stop" : 1597039886555,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "E2E Tests - Item Detail Page - Functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E Tests - Item Detail Page - Functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "should go to empty tab after clicking Back button if coming from new tab"
+  }, {
+    "name" : "package",
+    "value" : "E2E Tests - Item Detail Page - Functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "57710d482c28bdb9.json",
+  "parameterValues" : [ ]
+}

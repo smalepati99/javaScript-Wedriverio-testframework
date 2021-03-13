@@ -1,0 +1,33 @@
+{
+  "name": "testframework-js-webdriverio",
+  "version": "1.0.0",
+  "description": "Test Automation Framework with WebdriverIO, JavaScript in POM - Page Object Model pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/wdio ./wdio.conf.js",
+    "allure-generate": "./node_modules/.bin/allure generate ./allure-results",
+    "allure-generate:clean": "./node_modules/.bin/allure generate ./allure-results --clean",
+    "allure-open": "./node_modules/.bin/allure open"
+  },
+  "keywords": [],
+  "author": "Srikanth Malepati",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/register": "^7.10.1",
+    "@wdio/allure-reporter": "^6.3.6",
+    "@wdio/cli": "^6.2.0",
+    "@wdio/junit-reporter": "^6.3.6",
+    "@wdio/local-runner": "^6.2.0",
+    "@wdio/mocha-framework": "^6.2.0",
+    "@wdio/spec-reporter": "^6.1.23",
+    "@wdio/sync": "^6.2.0",
+    "chromedriver": "^83.0.1",
+    "log4js": "^6.3.0",
+    "prettier": "^2.0.5",
+    "wdio-chromedriver-service": "^6.0.3"
+  },
+  "dependencies": {}
+}

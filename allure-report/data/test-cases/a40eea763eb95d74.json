@@ -1,0 +1,48 @@
+{
+  "uid" : "a40eea763eb95d74",
+  "name" : "should have the login form and bot image horizontally alligned in desktop view",
+  "fullName" : "E2E Tests - Login Page - Design.should have the login form and bot image horizontally alligned in desktop view",
+  "historyId" : "7e4e3c616868bd28f0df6d0e23195d0a",
+  "time" : {
+    "start" : 1597039907652,
+    "stop" : 1597039907652,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "E2E Tests - Login Page - Design"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E Tests - Login Page - Design"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have the login form and bot image horizontally alligned in desktop view"
+  }, {
+    "name" : "package",
+    "value" : "E2E Tests - Login Page - Design"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a40eea763eb95d74.json",
+  "parameterValues" : [ ]
+}

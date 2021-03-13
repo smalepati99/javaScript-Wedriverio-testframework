@@ -1,0 +1,159 @@
+{
+  "actions": [
+    {
+      "type": "pointer",
+      "id": "pointer1",
+      "parameters": {
+        "pointerType": "mouse"
+      },
+      "actions": [
+        {
+          "type": "pointerMove",
+          "origin": {
+            "sessionId": "231d0bc9889320f38950d75bc4e0a918",
+            "elementId": "3b89b7a8-cfb5-472e-89e7-c3272c1954a4",
+            "element-6066-11e4-a52e-4f735466cecf": "3b89b7a8-cfb5-472e-89e7-c3272c1954a4",
+            "selector": "#first-name",
+            "parent": {
+              "sessionId": "231d0bc9889320f38950d75bc4e0a918",
+              "capabilities": {
+                "acceptInsecureCerts": false,
+                "browserName": "chrome",
+                "browserVersion": "84.0.4147.105",
+                "chrome": {
+                  "chromedriverVersion": "83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416})",
+                  "userDataDir": "/var/folders/g7/w8knw78j0rs700rjsqrd1lr40000gn/T/.com.google.Chrome.Z6kqHn"
+                },
+                "goog:chromeOptions": {
+                  "debuggerAddress": "localhost:63431"
+                },
+                "networkConnectionEnabled": false,
+                "pageLoadStrategy": "normal",
+                "platformName": "mac os x",
+                "proxy": {},
+                "setWindowRect": true,
+                "strictFileInteractability": false,
+                "timeouts": {
+                  "implicit": 0,
+                  "pageLoad": 300000,
+                  "script": 30000
+                },
+                "unhandledPromptBehavior": "dismiss and notify",
+                "webauthn:virtualAuthenticators": true
+              },
+              "config": {
+                "specs": [
+                  "./test/specs/**/*.js"
+                ],
+                "suites": {},
+                "exclude": [],
+                "logLevel": "info",
+                "logLevels": {},
+                "excludeDriverLogs": [],
+                "bail": 0,
+                "waitforInterval": 500,
+                "waitforTimeout": 10000,
+                "framework": "mocha",
+                "reporters": [
+                  "spec",
+                  [
+                    "junit",
+                    {
+                      "outputDir": "./"
+                    }
+                  ],
+                  [
+                    "allure",
+                    {
+                      "outputDir": "allure-results",
+                      "disableWebdriverStepsReporting": false,
+                      "disableWebdriverScreenshotsReporting": false
+                    }
+                  ]
+                ],
+                "services": [
+                  "chromedriver"
+                ],
+                "maxInstances": 10,
+                "maxInstancesPerCapability": 100,
+                "filesToWatch": [],
+                "connectionRetryTimeout": 120000,
+                "connectionRetryCount": 3,
+                "execArgv": [],
+                "runnerEnv": {},
+                "runner": "local",
+                "mochaOpts": {
+                  "timeout": 60000,
+                  "ui": "bdd",
+                  "require": [
+                    "@babel/register"
+                  ]
+                },
+                "jasmineNodeOpts": {
+                  "defaultTimeoutInterval": 10000
+                },
+                "cucumberOpts": {
+                  "timeout": 10000
+                },
+                "onPrepare": [],
+                "onWorkerStart": [],
+                "before": [],
+                "beforeSession": [],
+                "beforeSuite": [],
+                "beforeHook": [],
+                "beforeTest": [],
+                "beforeCommand": [],
+                "afterCommand": [],
+                "afterTest": [],
+                "afterHook": [],
+                "afterSuite": [],
+                "afterSession": [],
+                "after": [],
+                "onComplete": [],
+                "onReload": [],
+                "beforeFeature": [],
+                "beforeScenario": [],
+                "beforeStep": [],
+                "afterStep": [],
+                "afterScenario": [],
+                "afterFeature": [],
+                "baseUrl": "https://www.saucedemo.com/index.html",
+                "_": [
+                  "./wdio.conf.js"
+                ],
+                "$0": "node_modules/.bin/wdio",
+                "ignoredWorkerServices": [],
+                "specFileRetryAttempts": 0
+              },
+              "_NOT_FIBER": false
+            },
+            "isReactElement": false,
+            "_NOT_FIBER": true
+          },
+          "x": 0,
+          "y": 0
+        },
+        {
+          "type": "pointerDown",
+          "button": 0
+        },
+        {
+          "type": "pointerUp",
+          "button": 0
+        },
+        {
+          "type": "pause",
+          "duration": 10
+        },
+        {
+          "type": "pointerDown",
+          "button": 0
+        },
+        {
+          "type": "pointerUp",
+          "button": 0
+        }
+      ]
+    }
+  ]
+}

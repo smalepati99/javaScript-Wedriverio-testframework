@@ -1,0 +1,48 @@
+{
+  "uid" : "c03dcc9487547085",
+  "name" : "",
+  "fullName" : "E2E Tests - Cart Page - Design.",
+  "historyId" : "19994590e5840c10b6ae6fa3d132f41",
+  "time" : {
+    "start" : 1597039838597,
+    "stop" : 1597039838597,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "E2E Tests - Cart Page - Design"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E Tests - Cart Page - Design"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "E2E Tests - Cart Page - Design"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c03dcc9487547085.json",
+  "parameterValues" : [ ]
+}

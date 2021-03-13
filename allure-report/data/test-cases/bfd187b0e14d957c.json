@@ -1,0 +1,48 @@
+{
+  "uid" : "bfd187b0e14d957c",
+  "name" : "should have a Products title",
+  "fullName" : "E2E Tests - Inventory Page - Design.should have a Products title",
+  "historyId" : "e13ed14a105fe2c4dbf19afd152bb75b",
+  "time" : {
+    "start" : 1597039883598,
+    "stop" : 1597039883598,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "E2E Tests - Inventory Page - Design"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E Tests - Inventory Page - Design"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have a Products title"
+  }, {
+    "name" : "package",
+    "value" : "E2E Tests - Inventory Page - Design"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bfd187b0e14d957c.json",
+  "parameterValues" : [ ]
+}

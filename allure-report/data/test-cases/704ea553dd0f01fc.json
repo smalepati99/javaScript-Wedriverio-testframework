@@ -1,0 +1,48 @@
+{
+  "uid" : "704ea553dd0f01fc",
+  "name" : "should give error after clicking Continue button with only empty spaces",
+  "fullName" : "E2E Tests - Checkout Step One - Functionality.should give error after clicking Continue button with only empty spaces",
+  "historyId" : "55391a6d9689ef59a2ad06e2cc768d8c",
+  "time" : {
+    "start" : 1597039862854,
+    "stop" : 1597039862854,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "E2E Tests - Checkout Step One - Functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E Tests - Checkout Step One - Functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "should give error after clicking Continue button with only empty spaces"
+  }, {
+    "name" : "package",
+    "value" : "E2E Tests - Checkout Step One - Functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "704ea553dd0f01fc.json",
+  "parameterValues" : [ ]
+}
