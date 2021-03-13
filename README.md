@@ -1,4 +1,4 @@
-* `Author: Srikanth Malepati` 
+* `Author: ` 
 
 This test automation framework is developed for executing automation tests using WebdriverIO, Mocha & JavaScript implementing Page Object Model, WebDriverIO is a custom implementation of Selenium's WebDriver API, provides easy to manage API and a lot of syntactical sugar on top of the WebDriver specification. WebdriverIO can be used as a standalone package or via a testrunner using @wdio/cli. WebdriverIO allows to run tests locally using the WebDriver or Chrome DevTools protocol.
 
